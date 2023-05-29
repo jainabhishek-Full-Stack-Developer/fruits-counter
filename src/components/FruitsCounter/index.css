@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  background-color: #ffd569;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 5px;
+
+  text-align: center;
+  padding: 80px 40px;
+}
+.heading {
+  color: #000000;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.countValue {
+  color: #ffd569;
+}
+.imageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.image {
+  width: 180px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  outline: none;
+  background-color: #007bff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin-top: 30px;
+}
+.btn:hover {
+  cursor: pointer;
+}
